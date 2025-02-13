@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="gallery">
+        <img src="img1.jpg" onclick="viewImage(this)">
+        <img src="img2.jpg" onclick="viewImage(this)">
+        <img src="img3.jpg" onclick="viewImage(this)">
+    </div>
+    <div id="overlay" onclick="closeImage()">
+        <img id="largeImage">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
